@@ -1,0 +1,11 @@
+2022-10-07 06:07:14,608 - WARNING: Timeout occured when accesing entry page (11)
+2022-10-07 06:07:20,173 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=12
+2022-10-07 06:07:20,565 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=12
+2022-10-07 07:32:51,013 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=1
+2022-10-07 07:35:50,771 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos2202843/#qid~347266bb-2823-45c0-9172-42c380446204), basic information will be retrieved
+2022-10-07 07:36:09,817 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos11344691/#qid~347266bb-2823-45c0-9172-42c380446204), basic information will be retrieved
+2022-10-07 08:02:01,264 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=8
+2022-10-07 08:02:01,322 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=8
+2022-10-07 08:06:34,832 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-timur/hos11325327/#qid~9c272ab4-9313-4551-bc35-3884bf64db60), basic information will be retrieved
+2022-10-07 08:06:59,654 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos11195173/#qid~9c272ab4-9313-4551-bc35-3884bf64db60), basic information will be retrieved
+2022-10-07 08:07:30,831 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos9981425/#qid~9c272ab4-9313-4551-bc35-3884bf64db60), basic information will be retrieved

@@ -1,0 +1,19 @@
+2022-10-07 01:12:50,001 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=1
+2022-10-07 01:16:39,344 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=1
+2022-10-07 01:22:05,446 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=2
+2022-10-07 01:47:33,877 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=2
+2022-10-07 02:04:35,365 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=2
+2022-10-07 02:09:17,835 - Timeout occured when accessing url (https://www.rumah123.com/properti/bogor/hos9021749/#qid~d289c246-bb12-43e5-a524-46b85ff2197d), may retrieve incomplete information
+2022-10-07 02:10:15,632 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=3
+2022-10-07 02:15:33,966 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=4
+2022-10-07 02:20:57,161 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=5
+2022-10-07 02:26:04,596 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-07 02:26:04,617 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-07 02:26:04,671 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-07 02:26:04,729 - Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-07 02:29:55,237 - Timeout occured when accessing url (https://www.rumah123.com/properti/bogor/hos10430268/#qid~4366c223-25d6-41a5-8453-162b1fc9ac2b), may retrieve incomplete information
+2022-10-07 02:31:38,540 - Timeout occured when accessing url (https://www.rumah123.com/properti/bogor/hos9786065/#qid~4366c223-25d6-41a5-8453-162b1fc9ac2b), may retrieve incomplete information
+2022-10-07 02:39:59,338 - Timeout occured when accessing url (https://www.rumah123.com/properti/bogor/hos6669857/#qid~a176e16b-98f8-4129-b0c3-8043a9b042a5), may retrieve incomplete information
+2022-10-07 02:54:02,646 - Timeout occured when accessing url (https://www.rumah123.com/properti/bogor/hos1847582/#qid~83008913-52f6-4c90-b57c-f64a2a6549c3), may retrieve incomplete information
+2022-10-07 02:55:04,825 - Timeout occured when accessing url (https://www.rumah123.com/properti/bogor/hos11206355/#qid~83008913-52f6-4c90-b57c-f64a2a6549c3), may retrieve incomplete information
+2022-10-07 02:56:06,941 - Timeout occured when accessing url (https://www.rumah123.com/properti/bogor/hos11206377/#qid~83008913-52f6-4c90-b57c-f64a2a6549c3), may retrieve incomplete information
