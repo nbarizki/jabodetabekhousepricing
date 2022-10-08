@@ -1,0 +1,150 @@
+2022-10-08 12:44:38,768 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=11
+2022-10-08 12:51:22,951 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=11
+2022-10-08 13:00:03,587 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=11
+2022-10-08 13:03:31,822 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=12
+2022-10-08 13:07:03,539 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=13
+2022-10-08 13:10:37,773 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=14
+2022-10-08 13:13:53,839 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=15
+2022-10-08 13:13:59,798 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=15
+2022-10-08 13:17:16,565 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=16
+2022-10-08 13:17:21,325 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=16
+2022-10-08 13:20:34,637 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=17
+2022-10-08 13:24:13,838 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=18
+2022-10-08 13:27:59,062 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=19
+2022-10-08 13:31:24,047 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=20
+2022-10-08 13:34:35,626 - INFO: Scrapping finished, quitting browser.
+2022-10-08 13:40:50,942 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=21
+2022-10-08 13:44:27,230 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=22
+2022-10-08 13:44:32,049 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=22
+2022-10-08 13:47:32,842 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=23
+2022-10-08 13:50:37,353 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=24
+2022-10-08 13:53:54,894 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=25
+2022-10-08 13:54:00,709 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=25
+2022-10-08 13:55:15,784 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos8971757/#qid~0b35c22f-9d89-44ed-8cba-578f8ff0cdf0), basic information will be retrieved
+2022-10-08 13:57:02,074 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=26
+2022-10-08 14:00:26,522 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=27
+2022-10-08 14:03:53,310 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=28
+2022-10-08 14:03:58,641 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=28
+2022-10-08 14:06:10,825 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos11212645/#qid~4b22cd4b-f458-4cb0-aea2-1cc22e3def3f), basic information will be retrieved
+2022-10-08 14:07:08,924 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=29
+2022-10-08 14:09:12,623 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos11185134/#qid~db2fa181-5285-44dd-8818-8e5cff587799), basic information will be retrieved
+2022-10-08 14:09:29,938 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-pusat/hos11203909/#qid~db2fa181-5285-44dd-8818-8e5cff587799), basic information will be retrieved
+2022-10-08 14:10:17,593 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=30
+2022-10-08 14:12:47,056 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos11118825/#qid~086514d5-e689-450e-8758-145bd17c509f), basic information will be retrieved
+2022-10-08 14:13:29,351 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=31
+2022-10-08 14:16:43,401 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=32
+2022-10-08 14:17:18,384 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos11098994/#qid~6371fe72-0c80-48c5-9e03-8a963c768f27), basic information will be retrieved
+2022-10-08 14:18:41,362 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-barat/hos11286426/#qid~6371fe72-0c80-48c5-9e03-8a963c768f27), basic information will be retrieved
+2022-10-08 14:19:54,971 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=33
+2022-10-08 14:23:17,915 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=34
+2022-10-08 14:24:10,396 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-barat/hos11207355/#qid~d0c616b8-a598-4ace-8770-8fa80ad65d81), basic information will be retrieved
+2022-10-08 14:26:32,838 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=35
+2022-10-08 14:26:38,176 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=35
+2022-10-08 14:29:50,334 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=36
+2022-10-08 14:33:09,928 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=37
+2022-10-08 14:36:30,178 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=38
+2022-10-08 14:49:48,396 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=38
+2022-10-08 14:53:33,015 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=39
+2022-10-08 14:56:13,464 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-selatan/hos11266636/#qid~db4a0dd4-d128-4cdc-898f-1d244eba949e), basic information will be retrieved
+2022-10-08 14:56:25,375 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-selatan/hos11337006/#qid~db4a0dd4-d128-4cdc-898f-1d244eba949e), basic information will be retrieved
+2022-10-08 14:57:05,295 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=40
+2022-10-08 15:00:32,379 - INFO: Scrapping finished, quitting browser.
+2022-10-08 15:06:55,933 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=41
+2022-10-08 15:10:44,781 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=42
+2022-10-08 15:14:20,840 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=43
+2022-10-08 15:18:08,276 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=44
+2022-10-08 15:18:22,331 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-selatan/hos11183382/#qid~b0cc056d-54c2-43bb-bd43-ba89f91d9356), basic information will be retrieved
+2022-10-08 15:21:37,136 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=45
+2022-10-08 15:24:58,533 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=46
+2022-10-08 15:28:18,445 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=47
+2022-10-08 15:31:24,728 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=48
+2022-10-08 15:32:11,796 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-pusat/hos11068214/#qid~cae4993a-64a7-426c-99fe-ad7fd1f3ec57), basic information will be retrieved
+2022-10-08 15:33:27,759 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-pusat/hos4276702/#qid~cae4993a-64a7-426c-99fe-ad7fd1f3ec57), basic information will be retrieved
+2022-10-08 15:34:32,582 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-utara/hos8519717/#qid~cae4993a-64a7-426c-99fe-ad7fd1f3ec57), basic information will be retrieved
+2022-10-08 15:34:48,349 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=49
+2022-10-08 15:36:18,961 - WARNING: Click element not found for url (https://www.rumah123.com/properti/jakarta-pusat/hos11316211/#qid~80b5c630-56bd-4de6-9029-b194221be838), basic information will be retrieved
+2022-10-08 15:38:14,097 - INFO: Scrapping https://www.rumah123.com/jual/dki-jakarta/rumah/?&page=50
+2022-10-08 15:41:37,969 - INFO: Scrapping finished, quitting browser.
+2022-10-08 15:45:01,305 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=1
+2022-10-08 15:48:41,911 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=2
+2022-10-08 15:52:12,047 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=3
+2022-10-08 15:52:18,613 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=3
+2022-10-08 15:55:22,095 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=4
+2022-10-08 15:58:37,507 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=5
+2022-10-08 15:58:43,606 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=5
+2022-10-08 16:02:05,265 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-08 16:05:21,209 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=7
+2022-10-08 16:05:27,273 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=7
+2022-10-08 16:05:27,325 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=7
+2022-10-08 16:05:27,459 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=7
+2022-10-08 16:05:27,579 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=7
+2022-10-08 16:08:01,142 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=8
+2022-10-08 16:11:19,163 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=9
+2022-10-08 16:14:33,645 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=10
+2022-10-08 16:17:40,065 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=11
+2022-10-08 16:21:12,575 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=12
+2022-10-08 16:24:41,483 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=13
+2022-10-08 16:24:46,379 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=13
+2022-10-08 16:24:47,848 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=13
+2022-10-08 16:27:44,177 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=14
+2022-10-08 16:30:38,633 - WARNING: Click element not found for url (https://www.rumah123.com/properti/bogor/hos2054399/#qid~971d49f4-abab-4062-8c22-190fe0945d56), basic information will be retrieved
+2022-10-08 16:31:02,521 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=15
+2022-10-08 16:31:07,594 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=15
+2022-10-08 16:31:07,673 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=15
+2022-10-08 16:31:08,069 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=15
+2022-10-08 16:31:08,313 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=15
+2022-10-08 16:31:08,381 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=15
+2022-10-08 16:33:40,589 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=16
+2022-10-08 16:33:45,703 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=16
+2022-10-08 16:36:51,100 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=17
+2022-10-08 16:53:26,907 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=1
+2022-10-08 16:56:30,217 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=2
+2022-10-08 16:59:19,754 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=3
+2022-10-08 16:59:26,340 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=3
+2022-10-08 17:01:56,541 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=4
+2022-10-08 17:04:45,895 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=5
+2022-10-08 17:04:52,182 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=5
+2022-10-08 17:07:27,767 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-08 17:07:33,592 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-08 17:07:33,616 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-08 17:07:33,667 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-08 17:07:33,721 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=6
+2022-10-08 17:09:45,819 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=7
+2022-10-08 17:12:33,681 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=8
+2022-10-08 17:15:35,820 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=9
+2022-10-08 17:18:25,956 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=10
+2022-10-08 17:21:21,227 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=11
+2022-10-08 17:24:16,121 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=12
+2022-10-08 17:27:12,651 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=13
+2022-10-08 17:27:17,573 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=13
+2022-10-08 17:27:17,655 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=13
+2022-10-08 17:29:42,240 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=14
+2022-10-08 17:29:48,283 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=14
+2022-10-08 17:29:48,303 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=14
+2022-10-08 17:32:00,329 - WARNING: Click element not found for url (https://www.rumah123.com/properti/bogor/hos2054399/#qid~8765a152-2e9c-430b-9609-a132f2d92374), basic information will be retrieved
+2022-10-08 17:32:21,223 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=15
+2022-10-08 17:32:26,395 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=15
+2022-10-08 17:32:27,087 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=15
+2022-10-08 17:34:53,030 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=16
+2022-10-08 17:34:58,889 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=16
+2022-10-08 17:34:58,929 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/bogor/rumah/?&page=16
+2022-10-08 17:37:28,123 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=17
+2022-10-08 17:40:25,724 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=18
+2022-10-08 17:43:27,346 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=19
+2022-10-08 17:46:42,752 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=20
+2022-10-08 17:49:24,758 - INFO: Scrapping finished, quitting browser.
+2022-10-08 17:49:56,748 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=21
+2022-10-08 17:52:24,393 - WARNING: Click element not found for url (https://www.rumah123.com/properti/bogor/hos11358239/#qid~476d06f5-e887-4bbe-b617-cf5782954f5c), basic information will be retrieved
+2022-10-08 17:52:47,911 - WARNING: Click element not found for url (https://www.rumah123.com/properti/bogor/hos11358176/#qid~476d06f5-e887-4bbe-b617-cf5782954f5c), basic information will be retrieved
+2022-10-08 17:52:52,716 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=22
+2022-10-08 17:53:07,750 - WARNING: Click element not found for url (https://www.rumah123.com/properti/bogor/hos11358176/#qid~25cd513f-2434-41fc-86dd-6c810c0bdb94), basic information will be retrieved
+2022-10-08 17:55:45,687 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=23
+2022-10-08 17:58:42,176 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=24
+2022-10-08 18:01:28,465 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=25
+2022-10-08 18:04:24,814 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=26
+2022-10-08 18:06:11,638 - WARNING: Click element not found for url (https://www.rumah123.com/properti/bogor/hos11355945/#qid~9ab0b10c-8ceb-4c9a-9e7a-479f91a141d1), basic information will be retrieved
+2022-10-08 18:07:06,552 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=27
+2022-10-08 18:10:03,435 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=28
+2022-10-08 18:13:14,437 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=29
+2022-10-08 18:16:12,406 - INFO: Scrapping https://www.rumah123.com/jual/bogor/rumah/?&page=30
+2022-10-08 18:19:16,893 - INFO: Scrapping finished, quitting browser.
