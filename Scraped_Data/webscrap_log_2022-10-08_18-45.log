@@ -1,0 +1,78 @@
+2022-10-08 18:45:35,763 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/&page=1
+2022-10-08 18:46:04,493 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=1
+2022-10-08 18:48:59,609 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=2
+2022-10-08 18:51:45,911 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=3
+2022-10-08 18:54:33,736 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=4
+2022-10-08 18:57:30,686 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=5
+2022-10-08 19:00:30,877 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=6
+2022-10-08 19:00:37,916 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=6
+2022-10-08 19:00:37,935 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=6
+2022-10-08 19:03:08,980 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=7
+2022-10-08 19:06:09,147 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=8
+2022-10-08 19:09:15,465 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=9
+2022-10-08 19:12:22,321 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=10
+2022-10-08 19:12:33,155 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=10
+2022-10-08 19:12:33,383 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=10
+2022-10-08 19:13:27,245 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos11061864/#qid~54003faa-18c9-4e10-a528-a1c515628a60), basic information will be retrieved
+2022-10-08 19:14:02,965 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos11097914/#qid~54003faa-18c9-4e10-a528-a1c515628a60), basic information will be retrieved
+2022-10-08 19:15:14,990 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=11
+2022-10-08 19:16:18,877 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos11241198/#qid~ede15eae-7f52-407b-9fe7-7bdc29376b6a), basic information will be retrieved
+2022-10-08 19:17:58,665 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=12
+2022-10-08 19:21:05,531 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=13
+2022-10-08 19:21:12,724 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=13
+2022-10-08 19:23:54,025 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=14
+2022-10-08 19:26:50,642 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=15
+2022-10-08 19:29:42,332 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=16
+2022-10-08 19:32:37,809 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=17
+2022-10-08 19:35:32,931 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=18
+2022-10-08 19:35:40,038 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=18
+2022-10-08 19:35:40,078 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=18
+2022-10-08 19:35:40,098 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=18
+2022-10-08 19:35:40,138 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=18
+2022-10-08 19:38:00,369 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=19
+2022-10-08 19:41:00,263 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=20
+2022-10-08 19:43:55,076 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=21
+2022-10-08 19:46:20,898 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos10121234/#qid~ee681e3d-c9e4-4718-ac4c-a651ac12aa71), basic information will be retrieved
+2022-10-08 19:46:51,719 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos10427184/#qid~ee681e3d-c9e4-4718-ac4c-a651ac12aa71), basic information will be retrieved
+2022-10-08 19:46:55,715 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=22
+2022-10-08 19:49:52,693 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=23
+2022-10-08 19:52:33,176 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=24
+2022-10-08 19:55:21,707 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=25
+2022-10-08 19:58:19,063 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=26
+2022-10-08 20:01:07,911 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=27
+2022-10-08 20:04:03,565 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=28
+2022-10-08 20:04:09,474 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=28
+2022-10-08 20:06:55,232 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=29
+2022-10-08 20:09:53,773 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=30
+2022-10-08 20:12:48,271 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=31
+2022-10-08 20:15:44,095 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=32
+2022-10-08 20:18:52,247 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=33
+2022-10-08 20:18:58,133 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=33
+2022-10-08 20:20:30,366 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos11134169/#qid~eaddfd9a-1be2-498e-a8c9-77196c3c7ef7), basic information will be retrieved
+2022-10-08 20:20:39,382 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos11083511/#qid~eaddfd9a-1be2-498e-a8c9-77196c3c7ef7), basic information will be retrieved
+2022-10-08 20:20:46,292 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos2051133/#qid~eaddfd9a-1be2-498e-a8c9-77196c3c7ef7), basic information will be retrieved
+2022-10-08 20:21:36,710 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=34
+2022-10-08 20:21:41,893 - WARNING: Failed to get (1) listing navigation link from https://www.rumah123.com/jual/tangerang/rumah/?&page=34
+2022-10-08 20:24:14,460 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=35
+2022-10-08 20:27:01,453 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=36
+2022-10-08 20:29:51,033 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=37
+2022-10-08 20:30:23,587 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos9469216/#qid~aaf6d5ee-73c3-49d9-a253-e0f4fd1e2817), basic information will be retrieved
+2022-10-08 20:30:38,015 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos11225968/#qid~aaf6d5ee-73c3-49d9-a253-e0f4fd1e2817), basic information will be retrieved
+2022-10-08 20:31:57,011 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos8331700/#qid~aaf6d5ee-73c3-49d9-a253-e0f4fd1e2817), basic information will be retrieved
+2022-10-08 20:32:13,156 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos10836715/#qid~aaf6d5ee-73c3-49d9-a253-e0f4fd1e2817), basic information will be retrieved
+2022-10-08 20:32:40,228 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=38
+2022-10-08 20:35:33,600 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=39
+2022-10-08 20:38:24,099 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=40
+2022-10-08 20:41:21,179 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=41
+2022-10-08 20:44:13,982 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=42
+2022-10-08 20:47:14,582 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=43
+2022-10-08 20:50:05,980 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=44
+2022-10-08 20:53:04,330 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=45
+2022-10-08 20:55:58,390 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=46
+2022-10-08 20:58:49,096 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=47
+2022-10-08 21:01:41,161 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=48
+2022-10-08 21:04:45,202 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=49
+2022-10-08 21:06:01,741 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos11359772/#qid~0d9492e8-7326-465d-85ee-e54559fedc26), basic information will be retrieved
+2022-10-08 21:06:32,282 - WARNING: Click element not found for url (https://www.rumah123.com/properti/tangerang/hos11359651/#qid~0d9492e8-7326-465d-85ee-e54559fedc26), basic information will be retrieved
+2022-10-08 21:07:36,403 - INFO: Scrapping https://www.rumah123.com/jual/tangerang/rumah/?&page=50
+2022-10-08 21:10:31,650 - INFO: Scrapping finished, quitting browser.
