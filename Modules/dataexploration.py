@@ -6,8 +6,11 @@ class DataExploration():
     def __init__(self, dataframe):
         self._dataframe = dataframe.copy()
 
-    def show_nans_or_zeroes(self, label: str, filter=None):
-        features = list(filter) or list(self._dataframe.columns)
+    def show_nans_or_zeroes(self, label: str, filter=[]):
+        if list(filter):
+            features = list(filter)
+        else:
+            features = list(self._dataframe.columns)
         total_records = self._dataframe.shape[0]
         if label == 'nans':
             label_data = (self._dataframe[features].isna()).sum()
