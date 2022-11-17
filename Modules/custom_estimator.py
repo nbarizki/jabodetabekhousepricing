@@ -125,7 +125,9 @@ class HetRobustRegression(BaseEstimator, RegressorMixin):
             reg_params_arr = np.r_[reg_params_arr, reg_params_new]
             d_arr = np.r_[d_arr, d_new]
             # distance is ||d_new - d||^2 / ||d||^2 < tol
-            tol = np.sum(np.square(d_arr[i + 1] - d_arr[i])) / np.sum(np.square(d_arr[i]))
+            tol = \
+                np.square(np.linalg.norm(d_arr[i + 1] - d_arr[i]))\
+                / np.square(np.linalg.norm(d_arr[i]))
             if tol < self.tol:
                 break
             elif i == (self.max_iter - 1):
