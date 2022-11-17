@@ -8,7 +8,16 @@ class HetRobustRegression(BaseEstimator, RegressorMixin):
     Heteroscedacity-Robust Regression. Reference:
     Atkinson, A.C, Riani, M., Torti, F.2016. Robust Methods for Heteroskedastic Regression.
     Computational Statistics and Data Analysis 104 (2016), 209 to 222.
+    A form of weighted least square, which using parametric weight that is estimated
+    iteratively.
+
+    Parameters:
+    -----------
+    fit_intercept : Fit regressor using intercept. Default = True
+    max_iter      : Max iteration limit. Default = 10000
+    tol           : Tolerance until iteration stopped. Default = 1e-8
     """
+
     def __init__(self, fit_intercept=True, max_iter=10000, 
             initialbeta=None, initialgamma=None, tol=1e-8):
         self.fit_intercept = fit_intercept
@@ -78,7 +87,46 @@ class HetRobustRegression(BaseEstimator, RegressorMixin):
             gamma_q = reg_q.coef_
         return gamma_q
 
+    def _fitted_weight(self, Z):
+        n_samples = Z.shape[0]
+        if self.fit_intercept:
+            zgamma = (np.c_[np.repeat(1, n_samples), Z] @ self.gamma_.T).flatten()
+        else:
+            zgamma = (Z @ self.gamma_.T).flatten()
+        expzgamma = np.exp(zgamma)
+        weight = np.power((1 + expzgamma), -1)
+        return weight
+
     def fit(self, X, y, Z):
+        """ 
+        Fit the regressor into the dataset.
+
+        Parameters:
+        -----------
+        X : Explanatory variable.
+            An array of shape (n_samples, n_params)
+        y : Dependent/response variable.
+            An array of shape (n_samples, )
+        Z : Explanatory variable responsible to heteroscedacity.
+            An array of shape (n_samples, n_params).
+            Must corresponds to one of X features.
+        
+        Attributes:
+        -----------
+        coef_       : Coefficient of regression model
+        intercept_  : Intercept (if fit_intercept = True)
+        gamma_      : Explanatory variable of sample_weight
+                      sample_weight = f(gamma)
+        weight_     : Sample weight of samples used in fit().
+        n_iter_     : Number of iterations performed
+        self.n_features_in_ : Number of features detected
+                              during fit().
+
+        Returns:
+        --------
+        LinearRegression : Fitted LinearRegression object.
+        """
+
         # since we wrap sklearn function, ._validate_data() will be
         # performed under sklearn estimator
         self._n_params = None
@@ -154,16 +202,66 @@ class HetRobustRegression(BaseEstimator, RegressorMixin):
         return self      
 
     def predict(self, X):
+        """ 
+        Predict response/dependent variable
+        Parameters:
+        -----------
+        X : Explanatory variable.
+            An array of shape (n_samples, n_params)
+        Z : Explanatory variable responsible to heteroscedacity.
+            An array of shape (n_samples, n_params).
+            Must corresponds to one of X features.
+
+        Returns:
+        --------
+        y : Predicted response.
+            An array of shape (n_samples, )
+        """
+
         check_is_fitted(self)
         return self._reg_result.predict(X)
 
-    def score(self, X, y, Z):
+    def get_sample_weight(self, Z):
+        """ 
+        Get the sample weight, which Z must correspond to X
+        Returns sample weights of array (n_samples, ).
+        Regressor must be fitted first.
+
+        Parameters:
+        -----------
+        Z : Explanatory variable responsible to heteroscedacity.
+            An array of shape (n_samples, n_params).
+
+        Returns:
+        --------
+        weight : sample_weight of given explanatory variable
+                 An array of shape(n_samples,)
+        """
         check_is_fitted(self)
-        if self.fit_intercept:
-            zgamma = (np.c_[np.repeat(1, self._n_samples), Z] @ self.gamma_.T).flatten()
-        else:
-            zgamma = (Z @ self.gamma_.T).flatten()
-        expzgamma = np.exp(zgamma)
-        weight = np.power((1 + expzgamma), -1)
+        weight = self._fitted_weight(Z)
+        return weight
+
+    def score(self, X, y, Z=None):
+        """ 
+        Calculate linear model (non-adjusted) R2 score.
+        if Z is provided, weighted scoring will be performed.
+        Regressor must be fitted first. 
+        Score is calculated using fit(X) against y.
+
+        Parameters:
+        -----------
+        X : Explanatory variable.
+            An array of shape (n_samples, n_params)
+        Z : Explanatory variable responsible to heteroscedacity.
+            An array of shape (n_samples, n_params)
+
+        Returns:
+        --------
+        R2 : R2 score of weighted least square regression
+        """
+        check_is_fitted(self)
+        weight = None
+        if Z.any():
+            weight = self._fitted_weight(Z)
         return self._reg_result.score(X, y, sample_weight=weight)
 
