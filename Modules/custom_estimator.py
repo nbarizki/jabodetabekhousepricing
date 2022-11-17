@@ -146,7 +146,7 @@ class HetRobustRegression(BaseEstimator, RegressorMixin):
             self.feature_names_in_ = self._reg_result.feature_names_in_
         except AttributeError:
             pass
-        self.gamma_ = gamma_arr
+        self.gamma_ = gamma
         self.weight_ = weight
         self.n_iter_ = iter
         return self      
@@ -155,7 +155,13 @@ class HetRobustRegression(BaseEstimator, RegressorMixin):
         check_is_fitted(self)
         return self._reg_result.predict(X)
 
-    def score(self, X, y):
+    def score(self, X, y, Z):
         check_is_fitted(self)
-        return self._reg_result.score(X, y, sample_weight=self.weight_)
+        if self.fit_intercept:
+            zgamma = (np.c_[np.repeat(1, self._n_samples), Z] @ self.gamma_.T).flatten()
+        else:
+            zgamma = (Z @ self.gamma_.T).flatten()
+        expzgamma = np.exp(zgamma)
+        weight = np.power((1 + expzgamma), -1)
+        return self._reg_result.score(X, y, sample_weight=weight)
 
