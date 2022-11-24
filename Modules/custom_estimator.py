@@ -189,6 +189,13 @@ class HetRobustRegression(BaseEstimator, RegressorMixin):
         expzgamma = np.exp(zgamma)
         weight = np.power((1 + expzgamma), -1) 
         self._reg_result = reg_result_arr[-1, 0]
+        y_predict = self._reg_result.predict(X)
+        resid = np.sqrt(weight) * (y - y_predict) # weighted residual
+        if self.fit_intercept:
+            sigma2 = resid.T @ resid / (X.shape[0] - X.shape[1] - 1)
+        else:
+            sigma2 = resid.T @ resid / (X.shape[0] - X.shape[1])
+        self.variance_ = sigma2
         self.coef_ = self._reg_result.coef_
         self.intercept_ = self._reg_result.intercept_
         self.n_features_in_ = self._reg_result.n_features_in_
@@ -208,9 +215,6 @@ class HetRobustRegression(BaseEstimator, RegressorMixin):
         -----------
         X : Explanatory variable.
             An array of shape (n_samples, n_params)
-        Z : Explanatory variable responsible to heteroscedacity.
-            An array of shape (n_samples, n_params).
-            Must corresponds to one of X features.
 
         Returns:
         --------
