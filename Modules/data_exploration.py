@@ -11,16 +11,17 @@ class DataExploration():
             features = list(filter)
         else:
             features = list(self._dataframe.columns)
-        total_records = self._dataframe.shape[0]
         if label == 'nans':
-            label_data = (self._dataframe[features].isna()).sum()
+            label_data = (self._dataframe[features].isna())
+        elif label == 'zeroes':
+            label_data = (self._dataframe[features] == 0)
         else:
-            label_data = (self._dataframe[features] == 0).sum()
-        label_percent = label_data / total_records * 100
+            raise ValueError('Wrong argument for "label"')
+        label_count = label_data.sum()
+        label_percent = label_data.mean() * 100
         data_types = self._dataframe[features].dtypes
         return(
-            pd.DataFrame({f'{label} Count'.title(): label_data, 
+            pd.DataFrame({f'{label} Count'.title(): label_count, 
                 f'{label} Percentage (%)'.title(): label_percent,
-                'Data Types': data_types
-            })
-        )
+                'Data Types': data_types})
+            )
