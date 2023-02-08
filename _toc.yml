@@ -4,7 +4,6 @@
 format: jb-book
 root: README
 chapters:
-- file: 0 - Web Scraping
 - file: 1 - Data Pre-Processing
 - file: 2 - Data Exploration and Analysis
 - file: 3 - Linear Modeling of House Price
